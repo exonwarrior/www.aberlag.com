@@ -19,4 +19,6 @@ def pdflatex (file)
 end
 
 watch("tex/(Constitution).tex") {|m| pdflatex(m[1]) }
+watch("tex/(Player Rulebook).tex") {|m| pdflatex(m[1]) }
+watch("tex/(Moderator Rulebook).tex") {|m| pdflatex(m[1]) }
 watch("tex/(General Meeting .*).tex") {|m| pdflatex(m[1]) }
