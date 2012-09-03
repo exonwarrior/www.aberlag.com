@@ -1,6 +1,3 @@
-# Jekyll config
-auto: true
-server: true
-
 # Site wide variables
 title: Aberystwyth Live Action Gaming Society
+url: /

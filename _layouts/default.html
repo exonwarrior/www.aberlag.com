@@ -3,19 +3,52 @@
 <head>
 	<meta charset="utf-8">
 	<title>{{ site.title }}</title>
+	<base href="{{ site.url }}/" />
 	<meta name="description" content="{{ site.title }}">
 	<meta name="author" content="Sam Clements (sam@borntyping.co.uk)">
-	<link rel="stylesheet" href="static/normalize.css">
-	<link rel="stylesheet" href="static/slabtext.css">
-	<script type="text/javascript" src="js/jquery-1.8.1.min.js"></script>
-	<script type="text/javascript" src="js/jquery.slabtext.min.js"></script>
+	<link rel="shortcut icon" href="{{ site.url }}static/favicon.ico" />
+	<link rel="stylesheet" href="{{ site.url }}static/css/default.css">
+	<script type="text/javascript" src="{{ site.url }}static/js/jquery-1.8.1.min.js"></script>
+	<script type="text/javascript" src="{{ site.url }}static/js/jquery.slabtext.min.js"></script>
 	<!--[if lt IE 9]>
 		<script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
 	<![endif]-->
+	<script type="text/javascript">
+		$(window).bind("load", function () {
+			$('.slabtext-container').slabText();
+		});
+	</script>
 </head>
 <body>
-	<header>{{ site.title }}</header>
-	<article>{{ content }}</article>
-	<footer>Last updated: {{ site.time | date_to_long_string }}.</footer>
+<div class="container">
+	<div class="header row">
+		<div class="header-row">
+			<div class="span6">
+				<h1 class="slabtext-container align">
+					<span class='slabtext'>Aberystwyth</span>
+					<span class='slabtext'>Live Action</span>
+					<span class='slabtext'>Gaming Society</span>
+				</h1>
+			</div>
+			<div class="span6">
+				<img alt="" src="static/logo.jpg" />
+			</div>
+		</div>
+	</div>
+	<div class="row">
+		<div class="span12">
+			<article>
+				{{ content }}
+			</article>
+		</div>
+	</div>
+	<div class="row">
+		<div class="span12">
+			<footer>
+				Site by <a href="http://borntyping.co.uk">Sam Clements</a>, &copy; 2012. - Last updated: {{ site.time | date_to_long_string }}.
+			</footer>
+		</div>
+	</div>
+</div>
 </body>
 </html>
