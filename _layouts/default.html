@@ -8,14 +8,23 @@
 	<meta name="author" content="Sam Clements (sam@borntyping.co.uk)">
 	<link rel="shortcut icon" href="{{ site.url }}static/favicon.ico" />
 	<link rel="stylesheet" href="{{ site.url }}static/css/default.css">
-	<script type="text/javascript" src="{{ site.url }}static/js/jquery-1.8.1.min.js"></script>
-	<script type="text/javascript" src="{{ site.url }}static/js/jquery.slabtext.min.js"></script>
 	<!--[if lt IE 9]>
 		<script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
 	<![endif]-->
-	<script type="text/javascript">
-		$(window).bind("load", function () {
-			$('.slabtext-container').slabText();
+	<script src="{{ site.url }}static/js/jquery-1.8.1.min.js"></script>
+	<script src="{{ site.url }}static/js/jquery.slabtext.min.js"></script>
+	<script src="//ajax.googleapis.com/ajax/libs/webfont/1/webfont.js"></script>
+	<script>
+		$(function() {
+			WebFont.load({
+				custom: {
+					families: ['LeagueGothicRegular'],
+					urls : ['{{ site.url }}static/css/league-gothic.css'],
+				},
+				active: function() {
+					$('.slabtext-container').slabText();
+				}
+			});
 		});
 	</script>
 </head>
@@ -40,12 +49,8 @@
 			<article>
 				{{ content }}
 			</article>
-		</div>
-	</div>
-	<div class="row">
-		<div class="span12">
 			<footer>
-				Site by <a href="http://borntyping.co.uk">Sam Clements</a>, &copy; 2012. - Last updated: {{ site.time | date_to_long_string }}.
+				Site by <a href="http://borntyping.co.uk">Sam Clements</a>, &copy; 2012. - Last updated: {{ site.time | date_to_long_string }}
 			</footer>
 		</div>
 	</div>
