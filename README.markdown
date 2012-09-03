@@ -6,7 +6,7 @@ Jekyll site for [aberlag.com](http://aberlag.com).
 Requirements
 ------------
 
-    gem install jekyll jekyll-less
+    gem install jekyll jekyll-less therubyracer
 
 Attribution
 -----------
