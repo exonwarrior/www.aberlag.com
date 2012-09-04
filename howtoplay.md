@@ -8,7 +8,7 @@ title: How to play
 
 ### Shootouts
 
-Shootouts are our weekly events, usually run at the castle or one of the fields on the campus [(map)]().
+Shootouts are our weekly events, usually run at the castle or one of the fields on the campus [(map)](http://goo.gl/maps/RpXkU).
 
 They consist of several games, organized by the attending players (and usually moderators). The rules depend on the game type being played - some of the more popular ones are described here.
 
