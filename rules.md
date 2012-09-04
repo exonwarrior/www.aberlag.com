@@ -1,7 +1,7 @@
 ---
 layout: default
 permalink: /rules/
-title: How to play
+title: The rules
 ---
 
 ### Safety
