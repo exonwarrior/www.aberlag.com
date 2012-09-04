@@ -1,5 +1,6 @@
 ---
 layout: default
+frontpage: true
 ---
 
 The [{{ site.title }}](/) runs live-action competitive combat games, using foam dart blasters and socks.

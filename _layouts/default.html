@@ -6,6 +6,7 @@
 	<base href="{{ site.url }}" />
 	<meta name="description" content="{{ site.title }}">
 	<meta name="author" content="Sam Clements (sam@borntyping.co.uk)">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<link rel="shortcut icon" href="{{ site.url }}static/favicon.ico" />
 	<link rel="stylesheet" href="{{ site.url }}static/css/default.css">
 	<!--[if lt IE 9]>
@@ -30,10 +31,11 @@
 </head>
 <body>
 <div class="container">
+	{% if page.frontpage %}
 	<div class="header row">
-		<div class="header-row">
+		<div class="header-align">
 			<div class="span6">
-				<h1 class="slabtext-container align">
+				<h1 class="slabtext-container">
 					<span class='slabtext'>Aberystwyth</span>
 					<span class='slabtext'>Live Action</span>
 					<span class='slabtext'>Gaming Society</span>
@@ -44,6 +46,21 @@
 			</div>
 		</div>
 	</div>
+	{% else %}
+	<div class="header row">
+		<div class="header-align">
+			<div class="span9">
+				<h1 class="slabtext-container">
+					<span class='slabtext'>{{ site.title }}</span>
+				</h1>
+				<h2 class="slabtext-container adjust">{{ page.title }}</h2>
+			</div>
+			<div class="span3">
+				<img alt="" src="{{ site.url }}static/logo.png" />
+			</div>
+		</div>
+	</div>
+	{% endif %}
 	<div class="row">
 		<div class="span12">
 			<article>

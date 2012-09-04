@@ -1,44 +1,14 @@
-@import "normalize";
 @import "bootstrap.css";
 @import "slabtext";
 @import "league-gothic";
 
-/* The header */
-
-.header {
-	margin-top: 1em;
-	
-	color: #222;
-	
-	display: inline-table;
-	margin-left: 0px;
-	table-layout: fixed;
-	
-	.header-row {
-		display: table-row;
-		
-		[class*="span"] {
-			display: table-cell;
-			vertical-align: middle;
-			float: none;
-			padding-left: 20px;
-			
-			img {
-				width: inherit;
-			}
-			
-			&:first-of-type {
-				padding-left: 0;
-			}
-		}
-	}
-}
+/* Headers */
 
 h1, h2 {
 	margin: 0;
 	line-height: 1;
+	color: #222;
 	
-	color: inherit;
 	text-align: right;
 	text-transform: uppercase;
 	
@@ -46,7 +16,7 @@ h1, h2 {
 	font-family: "LeagueGothicRegular", "Impact", "Arial Black", "Sans serif";
 	
 	a {
-		color: #CCCCCC;
+		color: inherit;
 		&:hover {
 			color: #888888;
 			text-decoration: none;
@@ -57,12 +27,7 @@ h1, h2 {
 h1 { font-size: 6em; }
 h2 { font-size: 5em; }
 
-/* The main page content */
-
-article {	
-	min-height: 100px;
-	text-align: justify;
-}
+/* Links */
 
 a {
 	color: #CC0000;
@@ -71,11 +36,64 @@ a {
 	}
 }
 
-/* The footer */
+/* 
+ * The main header
+ * 
+ * Uses display: table to vertically align the elements
+ */
+
+.header {
+	margin-top: 1em;
+	display: inline-table;
+	table-layout: fixed;
+	
+	.header-align {
+		display: table-row;
+		
+		[class*="span"] {
+			display: table-cell;
+			vertical-align: middle;
+			float: none;
+			padding-left: 20px;
+			
+			h1, h2 {
+				margin-top: 0.2em;
+				width: inherit;
+				line-height: 0.8;
+			}
+			
+			h1 > .slabtext {
+				margin-top: 0.1em;
+			}
+			
+			img {
+				width: inherit;
+				vertical-align: top;
+			}
+		}
+	}
+}
+
+/* The page content */
+
+article {
+	text-align: justify;
+	margin: 2em 0.5em 1em;
+	padding: 0;
+	border: 1px solid #eee;
+	border-left: none;
+	border-right: none;
+}
+
+.table {
+	width: 90%;
+	margin: 0 auto;
+}
+
+/* Footer */
 
 footer {
-	padding: 1em;
-	border-top: 1px solid #ddd;
+	padding: 0 1em 1em;
 	text-align: center;
 	font-size: 0.85em;
 	color: #AAA;
