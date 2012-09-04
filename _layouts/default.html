@@ -14,7 +14,7 @@
 	<![endif]-->
 	<script src="{{ site.url }}static/js/jquery-1.8.1.min.js"></script>
 	<script src="{{ site.url }}static/js/jquery.slabtext.min.js"></script>
-	<script src="//ajax.googleapis.com/ajax/libs/webfont/1/webfont.js"></script>
+	<script src="{{ site.url }}static/js/webfont.js"></script>
 	<script>
 		$(function() {
 			WebFont.load({
@@ -61,6 +61,13 @@
 	</div>
 	<div class="row">
 		<div class="span12">
+			<nav>
+				{% for link in site.navigation %}
+					{% unless page.url == link.url %}
+						<a href="{{ link.url }}">{{ link.text }}</a>
+					{% endunless %}
+				{% endfor %}
+			</nav>
 			<article>
 				{{ content }}
 			</article>

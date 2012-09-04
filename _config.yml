@@ -1,3 +1,13 @@
 # Site wide variables
 title: Aberystwyth Live Action Gaming Society
 url: /
+
+navigation:
+- text: About
+  url: /
+- text: Rules
+  url: /rules/
+- text: How to play
+  url: /howtoplay/
+- text: Committee
+  url: /committee/
