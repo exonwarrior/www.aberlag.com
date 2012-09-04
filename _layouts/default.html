@@ -31,9 +31,9 @@
 </head>
 <body>
 <div class="container">
-	{% if page.frontpage %}
 	<div class="header row">
 		<div class="header-align">
+		{% if page.frontpage %}
 			<div class="span6">
 				<h1 class="slabtext-container">
 					<span class='slabtext'>Aberystwyth</span>
@@ -44,30 +44,28 @@
 			<div class="span6">
 				<img alt="" src="{{ site.url }}static/logo.png" />
 			</div>
-		</div>
-	</div>
-	{% else %}
-	<div class="header row">
-		<div class="header-align">
+		{% else %}
 			<div class="span9">
 				<h1 class="slabtext-container">
-					<span class='slabtext'>{{ site.title }}</span>
+					<span class='slabtext'>
+						<a href="{{ site.url }}">{{ site.title }}</a>
+					</span>
 				</h1>
 				<h2 class="slabtext-container adjust">{{ page.title }}</h2>
 			</div>
 			<div class="span3">
 				<img alt="" src="{{ site.url }}static/logo.png" />
 			</div>
+		{% endif %}
 		</div>
 	</div>
-	{% endif %}
 	<div class="row">
 		<div class="span12">
 			<article>
 				{{ content }}
 			</article>
 			<footer>
-				Site by <a href="http://borntyping.co.uk">Sam Clements</a>, &copy; 2012. - Last updated: {{ site.time | date_to_long_string }}
+				Site by <a href="http://borntyping.co.uk">Sam Clements</a>, &copy; 2012. - Last updated: {{ site.time | date_to_long_string }} - <a href="{{ site.url }}">Home</a>
 			</footer>
 		</div>
 	</div>
