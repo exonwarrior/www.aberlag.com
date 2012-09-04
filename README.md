@@ -19,8 +19,12 @@ Logo - `static/logo.*`:
 
 - Seth Khan
 
+The font used for this site is [League Gothic](https://github.com/theleagueof/league-gothic).
+
 The site uses the following:
 
-- [html5shiv](https://github.com/aFarkas/html5shiv)
-- [slabText](https://github.com/freqdec/slabText)
+- [html5shiv](http://github.com/aFarkas/html5shiv)
+- [jQuery](http://jquery.com/)
+- [WebFont Loader](https://developers.google.com/webfonts/docs/webfont_loader)
+- [slabText](http://github.com/freqdec/slabText)
 - [bootstrap](http://twitter.github.com/bootstrap/)
