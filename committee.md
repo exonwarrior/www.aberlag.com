@@ -38,8 +38,8 @@ The AberLAG committee can be reached at [committee@aberlag.com](mailto://committ
 		</tr>
 		<tr>
 			<td>Tabby Key</td>
-			<td>Health and Saftey Officer</td>
-			<td><a href="mailto://saftey@aberlag.com">saftey@aberlag.com</a></td>
+			<td>Health and Safety Officer</td>
+			<td><a href="mailto://safety@aberlag.com">safety@aberlag.com</a></td>
 		</tr>
 		<tr>
 			<td>Dave Haenze</td>
