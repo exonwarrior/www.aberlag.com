@@ -41,11 +41,10 @@ Most games will have moderators, who act as arbitrators for disputes and organis
 During the game, there are several shouts (known as &quot;calls&quot;) that they may make:
 
 - **HALT** (*or three whistles*)
-  <br/> Used to stop play completely, in the case of an emergency such as an injury. <br/> If needed, it is acceptable for any player to make this call.
-
+  <br/> Used to stop play completely, in the case of an emergency such as an injury.
+  <br/> If needed, it is acceptable for any player to make this call.
 - **START** / **STOP** (*or two whistles*)
   <br/> Marks the start and end of a game.
-
 - **PAUSE** / **PLAY** (*or a single whistle*)
   <br/> Temporarily pauses a game - you should lower your equipment, and follow the moderators instructions.
   <br/> The moderator will continue the game once any issues have been resolved.
