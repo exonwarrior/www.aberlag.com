@@ -8,16 +8,26 @@ Requirements
 
     gem install jekyll jekyll-less therubyracer
 
-Attribution
------------
+Contributions
+-------------
 
-Favicon - `static/favicon.ico`:
+- Favicon and some content by [Yarrow Paddon-Butler](mailto:yarrowpb@gmail.com) (`static/favicon.ico`)
+- Logo by Seth Khan (`static/logo.*`)
 
-- [Yarrow Paddon-Butler](mailto:yarrowpb@gmail.com)
+Licence
+-------
 
-Logo - `static/logo.*`:
+![Creative Commons Attribution-ShareAlike 3.0 Unported License](http://i.creativecommons.org/l/by-sa/3.0/88x31.png "Creative Commons Attribution-ShareAlike 3.0 Unported License")
 
-- Seth Khan
+This work, is licensed under the [Creative Commons Attribution-ShareAlike 3.0 Unported License](http://creativecommons.org/licenses/by-sa/3.0/), excluding the following:
+
+- Those resources under other licences (see the 'Resources' section below). Licence information for each of these can be found at the respective websites.
+- The Facebook logo (`static/facebook.png`) - see [here](https://www.facebook.com/brandpermissions/logos.php).
+- All information relating to specific people - in particular, the contents of `committee.md`.
+- The name and related branding (including, but not limited to, all files in the `static/logo` directory) of the society (i.e. Aberystwyth Live Action Gaming / AberLAG).
+
+Resources
+---------
 
 The font used for this site is [League Gothic](https://github.com/theleagueof/league-gothic).
 
