@@ -1,26 +1,21 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-	<meta charset="utf-8">
 	<title>{{ site.title }}</title>
-	<base href="{{ site.url }}" />
-	<meta name="description" content="{{ site.title }}">
+	<meta charset="utf-8">
 	<meta name="author" content="Sam Clements (sam@borntyping.co.uk)">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
-	<link rel="shortcut icon" href="{{ site.url }}static/logo/favicon.ico" />
-	<link rel="stylesheet" href="{{ site.url }}static/css/default.css">
-	<!--[if lt IE 9]>
-		<script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
-	<![endif]-->
-	<script src="{{ site.url }}static/js/jquery-1.8.1.min.js"></script>
-	<script src="{{ site.url }}static/js/jquery.slabtext.min.js"></script>
-	<script src="{{ site.url }}static/js/webfont.js"></script>
+	<link rel="shortcut icon" href="/static/logo/favicon.ico" />
+	<link rel="stylesheet" href="/static/css/default.css">
+	<script src="/static/js/jquery-1.8.1.min.js"></script>
+	<script src="/static/js/jquery.slabtext.min.js"></script>
+	<script src="/static/js/webfont.js"></script>
 	<script>
 		$(function() {
 			WebFont.load({
 				custom: {
 					families: ['LeagueGothicRegular'],
-					urls : ['{{ site.url }}static/css/league-gothic.css'],
+					urls : ['/static/css/league-gothic.css'],
 				},
 				active: function() {
 					$('.slabtext-container').slabText();
@@ -28,6 +23,9 @@
 			});
 		});
 	</script>
+	<!--[if lt IE 9]>
+		<script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+	<![endif]-->
 </head>
 <body>
 <div class="container">
@@ -42,19 +40,19 @@
 				</h1>
 			</div>
 			<div class="span6">
-				<img alt="" src="{{ site.url }}static/logo/logo.png" />
+				<img alt="" src="/static/logo/logo.png" />
 			</div>
 		{% else %}
 			<div class="span9">
 				<h1 class="slabtext-container">
 					<span class='slabtext'>
-						<a href="{{ site.url }}">{{ site.title }}</a>
+						<a href="/">{{ site.title }}</a>
 					</span>
 				</h1>
 				<h2 class="slabtext-container adjust">{{ page.title }}</h2>
 			</div>
 			<div class="span3">
-				<img alt="" src="{{ site.url }}static/logo/logo.png" />
+				<img alt="" src="/static/logo/logo.png" />
 			</div>
 		{% endif %}
 		</div>
