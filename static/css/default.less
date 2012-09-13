@@ -2,6 +2,101 @@
 @import "slabtext";
 @import "league-gothic";
 
+
+/* Layout elements */
+
+@media (min-width: 767px) {
+	.header{
+		display: inline-table;
+		table-layout: fixed;
+		
+		.header-align {
+			display: table-row;
+			
+			[class*="span"] {
+				display: table-cell;
+				vertical-align: middle;
+				padding-left: 20px;
+				float: none;
+				
+				h1 > .slabtext {
+					margin-top: 0.1em;
+					text-align: right;
+				}
+				
+				img {
+					width: inherit;
+				}
+			}
+		}
+	}
+	
+	nav {
+		height: 2em;
+	}
+}
+
+@media (max-width: 767px) {
+	.row:first-of-type {
+		margin-top: 0;	
+	}
+}
+
+.header {
+	h1, h2 {
+		margin: 0.2em 0 0;
+		width: inherit;
+		line-height: 0.8;
+	}
+}
+
+.row {
+	margin-top: 2em;	
+}
+
+nav, footer {
+	border: 1px solid #eee;
+	border-left: none;
+	border-right: none;
+}
+
+nav {
+	padding: 0.5em;
+	line-height: 2em;
+	text-align: center;
+	
+	a {
+		font-size: 2em;
+		margin: 0 0.5em;
+		
+		&:hover {
+			text-decoration: none;
+		}
+	}
+}
+
+article {
+	text-align: justify;
+	
+	.table {
+		width: 90%;
+		margin: 0 auto;
+	}
+}
+
+footer {
+	margin: 1em 0 2em;
+	padding: 1em;
+	line-height: 1em;
+	text-align: center;
+	font-size: 0.85em;
+	color: #AAA;
+	
+	a {
+		color: #F55;
+	}
+}
+
 /* Headers (and nav links) */
 
 h1, h2, h3, h4, nav a {
@@ -39,7 +134,7 @@ h4 {
 	margin: 1em 0 0;
 }
 
-/* Links */
+/* Content */
 
 a {
 	color: #CC0000;
@@ -59,96 +154,6 @@ a.facebook {
 	        background-size: @size;
 }
 
-/* Lists */
-
 ol li {
   margin-bottom: 0.5em;
-}
-
-/* 
- * The main header
- * 
- * Uses display: table to vertically align the elements
- */
-
-.header {
-	margin-top: 1em;
-	display: inline-table;
-	table-layout: fixed;
-	
-	.header-align {
-		display: table-row;
-		
-		[class*="span"] {
-			display: table-cell;
-			vertical-align: middle;
-			padding-left: 20px;
-			float: none;
-			
-			h1, h2 {
-				margin: 0.2em 0 0;
-				width: inherit;
-				line-height: 0.8;
-			}
-			
-			h1 > .slabtext {
-				margin-top: 0.1em;
-				text-align: right;
-			}
-			
-			img {
-				width: inherit;
-			}
-		}
-	}
-}
-
-.row:not(:first-of-type) {
-	margin-top: 2em;	
-}
-
-/* The page content */
-
-nav, footer {
-	border: 1px solid #eee;
-	border-left: none;
-	border-right: none;
-}
-
-nav {
-	padding: 0.5em;
-	height: 2em;
-	line-height: 2em;
-	text-align: center;
-	
-	a {
-		font-size: 2em;
-		margin: 0 0.5em;
-		
-		&:hover {
-			text-decoration: none;
-		}
-	}
-}
-
-article {
-	text-align: justify;
-	
-	.table {
-		width: 90%;
-		margin: 0 auto;
-	}
-}
-
-footer {
-	margin: 1em 0 2em;
-	padding: 1em;
-	line-height: 1em;
-	text-align: center;
-	font-size: 0.85em;
-	color: #AAA;
-	
-	a {
-		color: #F55;
-	}
 }
