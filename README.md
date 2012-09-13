@@ -6,6 +6,8 @@ aberlag.com
 
 Jekyll site for [aberlag.com](http://aberlag.com).
 
+This site is open source and can be found [on github](https://github.com/aberlag/www.aberlag.com).
+
 Requirements
 ------------
 
