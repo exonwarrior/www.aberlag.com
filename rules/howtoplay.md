@@ -1,6 +1,5 @@
 ---
 layout: default
-permalink: /howtoplay/
 title: How to play
 ---
 

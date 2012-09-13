@@ -1,6 +1,5 @@
 ---
 layout: default
-permalink: /rules/
 title: The rules
 ---
 
