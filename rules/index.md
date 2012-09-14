@@ -57,3 +57,5 @@ Shootouts and other events may be competitive, but they are still a game. Respec
   <br/> Don't cheat, ignore the moderators, or attempt to spoil the game for the other players.
 - **Dead men don't talk**
   <br/> Inactive (&quot;dead&quot;) players should not interfere with players who are still active. <br/> To signify that you are inactive, hold up two fingers or your weapon in the air.
+- **Leave the location clean**
+  <br/> Make sure that darts are collected at the end of shootouts, and equipment is returned to it's owners.
