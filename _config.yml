@@ -6,7 +6,5 @@ navigation:
   url: /
 - text: Rules
   url: /rules
-- text: How to play
-  url: /rules/howtoplay
 - text: Committee
   url: /committee

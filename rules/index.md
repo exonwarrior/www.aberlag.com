@@ -1,8 +1,9 @@
 ---
 layout: default
 title: The rules
-noresize: true
 ---
+
+*There are [additional rules for scenarios](/rules/scenarios), which are our major events. These do not apply to normal shootouts.*
 
 ### Safety
 
