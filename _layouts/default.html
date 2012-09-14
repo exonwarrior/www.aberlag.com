@@ -18,7 +18,16 @@
 					urls : ['/static/css/league-gothic.css'],
 				},
 				active: function() {
-					$('.slabtext-container').slabText();
+					$('h1.slabtext-container').slabText({
+						"viewportBreakpoint": 767
+					});
+				{% unless page.noresize %}
+					$('h2.slabtext-container').slabText({
+						"fontRatio": 0.2,
+						"maxFontSize": 200,
+						"viewportBreakpoint": 767
+					});
+				{% endunless %}
 				}
 			});
 		});
@@ -49,7 +58,9 @@
 						<a href="/">{{ site.title }}</a>
 					</span>
 				</h1>
-				<h2 class="slabtext-container adjust">{{ page.title }}</h2>
+				<h2 class="slabtext-container adjust">
+					<a href="">{{ page.title }}</a>
+				</h2>
 			</div>
 			<div class="span3">
 				<img alt="" src="/static/logo/logo.png" />

@@ -1,6 +1,7 @@
 ---
 layout: default
 title: The rules
+noresize: true
 ---
 
 ### Safety

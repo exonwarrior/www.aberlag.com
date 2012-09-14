@@ -43,6 +43,8 @@
 }
 
 .header {
+	text-align: center;
+	
 	h1, h2 {
 		margin: 0.2em 0 0;
 		width: inherit;
@@ -101,7 +103,6 @@ footer {
 
 h1, h2, h3, h4, nav a {
 	color: #222;
-	
 	line-height: 1;
 	text-transform: uppercase;
 	
@@ -115,14 +116,24 @@ h1, h2, h3, h4 {
 	a {
 		color: inherit;
 		&:hover {
-			color: #555555;
+			color: #444;
 			text-decoration: none;
 		}
 	}
 }
 
-h1 { font-size: 6em; }
-h2 { font-size: 5em; }
+h1 {
+	font-size: 6.5em;
+	color: #111;
+}
+
+h2 {
+	font-size: 5em;
+}
+
+h2.slabtext-container {
+	font-size: 10em;
+}
 
 h3 {
 	font-size: 3.5em;
