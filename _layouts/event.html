@@ -1,0 +1,21 @@
+{% extends "_layouts/default.html" %}
+{% block header %}
+	<div class="header row">
+		<div class="header-align">
+			<div class="span9">
+				<h1 class="slabtext-container">
+					<span class='slabtext'>
+						<a href="/">{{ site.title }}</a>
+					</span>
+				</h1>
+				<span class="presents">presents</span>
+				<h2 class="slabtext-container">
+					<span class="slabtext">{{ page.title }}</span>
+				</h2>
+			</div>
+			<div class="span3">
+				<img alt="" src="/static/logo/logo.svg" />
+			</div>
+		</div>
+	</div>
+{% endblock %}

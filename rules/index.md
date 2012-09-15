@@ -3,8 +3,6 @@ layout: default
 title: The rules
 ---
 
-*There are [additional rules for scenarios](/rules/scenarios), which are our major events. These do not apply to normal shootouts.*
-
 ### Safety
 
 First are the safety rules. These are important, and breaking them may get you banned from the society.

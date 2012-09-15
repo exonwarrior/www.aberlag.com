@@ -1,3 +1,6 @@
+# Post permalinks
+permalink: /:categories/:year/:month/:day/:title.html
+
 # Site wide variables
 title: Aberystwyth Live Action Gaming Society
 
@@ -5,6 +8,8 @@ navigation:
 - text: About
   url: /
 - text: Rules
-  url: /rules
+  url: /rules/
+- text: Events
+  url: /events/
 - text: Committee
-  url: /committee
+  url: /committee/

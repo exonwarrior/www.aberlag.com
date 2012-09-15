@@ -18,16 +18,9 @@
 					urls : ['/static/css/league-gothic.css'],
 				},
 				active: function() {
-					$('h1.slabtext-container').slabText({
+					$('.slabtext-container').slabText({
 						"viewportBreakpoint": 767
 					});
-				{% unless page.noresize %}
-					$('h2.slabtext-container').slabText({
-						"fontRatio": 0.2,
-						"maxFontSize": 200,
-						"viewportBreakpoint": 767
-					});
-				{% endunless %}
 				}
 			});
 		});
@@ -38,38 +31,30 @@
 </head>
 <body>
 <div class="container">
+{% block header %}
 	<div class="header row">
 		<div class="header-align">
-		{% if page.frontpage %}
-			<div class="span6">
-				<h1 class="slabtext-container">
-					<span class='slabtext'>Aberystwyth</span>
-					<span class='slabtext'>Live Action</span>
-					<span class='slabtext'>Gaming Society</span>
-				</h1>
-			</div>
-			<div class="span6">
-				<img alt="" src="/static/logo/logo.png" />
-			</div>
-		{% else %}
 			<div class="span9">
 				<h1 class="slabtext-container">
 					<span class='slabtext'>
 						<a href="/">{{ site.title }}</a>
 					</span>
 				</h1>
-				<h2 class="slabtext-container adjust">
-					<a href="">{{ page.title }}</a>
+				<h2 class="slabtext-container">
+					<span class='slabtext'>
+						{{ page.title }}
+					</span>
 				</h2>
 			</div>
 			<div class="span3">
 				<img alt="" src="/static/logo/logo.png" />
 			</div>
-		{% endif %}
 		</div>
 	</div>
+{% endblock header %}
 	<div class="row">
 		<div class="span12">
+			{% block nav %}
 			<nav>
 				{% for link in site.navigation %}
 					{% unless page.url == link.url %}
@@ -77,6 +62,7 @@
 					{% endunless %}
 				{% endfor %}
 			</nav>
+			{% endblock nav %}
 			<article>
 				{{ content }}
 			</article>

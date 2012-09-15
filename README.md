@@ -11,7 +11,7 @@ This site is open source and can be found [on github](https://github.com/aberlag
 Requirements
 ------------
 
-    gem install jekyll jekyll-less therubyracer
+    gem install jekyll jekyll-less therubyracer liquid-inheritance
 
 Contributions
 -------------
