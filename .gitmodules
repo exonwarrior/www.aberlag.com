@@ -1,3 +1,6 @@
 [submodule "documents"]
 	path = documents
 	url = git@github.com:aberlag/documents.git
+[submodule "static/logo"]
+	path = static/logo
+	url = git@github.com:aberlag/logo.git
