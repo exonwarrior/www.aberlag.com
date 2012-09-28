@@ -11,6 +11,8 @@ First are the safety rules. These are important, and breaking them may get you b
   <br/> Follow their instructions - especially at the start of games.
 - **No physical contact**
   <br/> Don't push, shove or grab at other players.
+- **Be aware of your enviroment**
+  <br/> Don't climb on walls (or anything else you could fall from) or otherwise endanger yourself or other players.
 - **Don't use realistic looking blasters**
   <br/> All equipment (in particular, blasters) must not look realistic or be painted in dark colours, and must have orange tips.
   <br/> *Modified or unusual blasters must be checked with the Safety Officer - they must not hurt on impact or have potential to cause injury.*
@@ -24,11 +26,11 @@ You can tag another player by shooting them with a blaster, touching them with a
 When tagging another player, you should call &quot;**HIT**&quot; to ensure the other player notices that they have been tagged.
 
 - **Foam dart/disc blasters**
-  <br/> Players are tagged by a direct hit from a projectile. Hits to the feet do not count, though hits to equipment do.
+  <br/> Players are tagged by a direct hit from a projectile. Hits to the feet or blaster do not count.
 - **Thrown weapons**
-  <br/> Rolled up socks or soft beanbags can be used as thrown weapons, and tag players in the same way as blasters.
+  <br/> Rolled up socks or soft beanbags are used as thrown weapons, and tag players in the same way as blasters.
 - **Melee weapons**
-  <br/> LARP-style melee weapons can tag a player simply by touching them.
+  <br/> LARP-style melee weapons tag a player simply by touching them.
   <br/> *Players using melee weapons must have permission from both the current Safety Officer and the current moderator.*
 
 *[direct hit]: The projectile hitting the player or the players equipment and coming to a full stop.
