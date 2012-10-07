@@ -1,3 +1,4 @@
+require 'rubygems'
 require 'liquid_inheritance'
 
 module LiquidInheritance

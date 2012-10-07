@@ -11,7 +11,8 @@ This site is open source and can be found [on github](https://github.com/aberlag
 Requirements
 ------------
 
-    gem install jekyll jekyll-less therubyracer liquid-inheritance
+    gem install jekyll jekyll-less therubyracer specific_install
+    gem specific_install -l git://github.com/borntyping/liquid-inheritance.git
 
 Contributions
 -------------
