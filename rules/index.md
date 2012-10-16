@@ -6,12 +6,12 @@ title: The rules
 ### Safety
 
 First are the safety rules. These are important, and breaking them may get you banned from the society.
-		
+
 - **Listen to the moderators**
   <br/> Follow their instructions - especially at the start of games.
 - **No physical contact**
   <br/> Don't push, shove or grab at other players.
-- **Be aware of your enviroment**
+- **Be aware of your environment**
   <br/> Don't climb on walls (or anything else you could fall from) or otherwise endanger yourself or other players.
 - **Don't use realistic looking blasters**
   <br/> All equipment (in particular, blasters) must not look realistic or be painted in dark colours, and must have orange tips.
@@ -20,7 +20,7 @@ First are the safety rules. These are important, and breaking them may get you b
   <br/> It may not be covered by the rules. But if could cause danger to another player, or get the game banned: *don't do it*.
 
 ### Tagging and Equipment
-		
+
 You can tag another player by shooting them with a blaster, touching them with a melee weapon, or hitting them with a thrown weapon.
 
 When tagging another player, you should call &quot;**HIT**&quot; to ensure the other player notices that they have been tagged.
@@ -38,7 +38,7 @@ When tagging another player, you should call &quot;**HIT**&quot; to ensure the o
 ### Etiquette
 
 Shootouts and other events may be competitive, but they are still a game. Respect the other players, and play fairly.
-	
+
 - **Act with honour, integrity and sportsmanship**
   <br/> Don't cheat, ignore the moderators, or attempt to spoil the game for the other players.
 - **Dead men don't talk**
