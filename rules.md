@@ -12,7 +12,7 @@ First are the safety rules. These are important, and breaking them may get you b
 - **No physical contact**
   <br/> Don't push, shove or grab at other players.
 - **Be aware of your environment**
-  <br/> Don't climb on walls (or anything else you could fall from) or otherwise endanger yourself or other players.
+  <br/> Don't climb on walls (or anything else you could fall from) or otherwise endanger yourself, or other people.
 - **Don't use realistic looking blasters**
   <br/> All equipment (in particular, blasters) must not look realistic or be painted in dark colours, and must have orange tips.
   <br/> *Modified or unusual blasters must be checked with the Safety Officer - they must not hurt on impact or have potential to cause injury.*
