@@ -32,7 +32,7 @@ The AberLAG committee can be reached at [committee@aberlag.com](mailto://committ
 			<td><a href="mailto://treasurer@aberlag.com">treasurer@aberlag.com</a></td>
 		</tr>
 		<tr>
-			<td>Liam Williams</td>
+			<td>Emma Hogan</td>
 			<td>Secretary</td>
 			<td><a href="mailto://secretary@aberlag.com">secretary@aberlag.com</a></td>
 		</tr>
