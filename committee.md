@@ -49,7 +49,7 @@ The AberLAG committee can be reached at [committee@aberlag.com](mailto://committ
 	</tbody>
 </table>
 
-The [AberLAG Constitution (pdf)](/documents/pdf/Constitution.pdf) defines the societies aims and rules, as well as the committee positions described above.
+The [AberLAG Constitution (pdf)](/documents/Constitution.pdf) defines the societies aims and rules, as well as the committee positions described above.
 
 {% if site.categories.committee %}
 #### News
