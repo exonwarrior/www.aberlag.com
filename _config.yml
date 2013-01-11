@@ -9,6 +9,8 @@ navigation:
   url: /
 - text: Rules
   url: /rules/
+- text: Shootouts
+  url: /shootouts/
 - text: Events
   url: /events/
 - text: Committee
