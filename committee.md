@@ -16,7 +16,7 @@ The AberLAG committee can be reached at [committee@aberlag.com](mailto://committ
 	</thead>
 	<tbody>
 		<tr>
-			<td>Sam Clements</td>
+			<td>Dave Haenze (acting)</td>
 			<td>President</td>
 			<td><a href="mailto://president@aberlag.com">president@aberlag.com</a></td>
 		</tr>
