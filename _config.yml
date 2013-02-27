@@ -11,6 +11,8 @@ navigation:
   url: /rules/
 - text: Shootouts
   url: /shootouts/
+- text: Game Types
+  url: /gametypes/
 - text: Events
   url: /events/
 - text: Committee
